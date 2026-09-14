@@ -1,4 +1,8 @@
-﻿from .common import (
+﻿"""
+Pydantic schemas for request/response validation
+"""
+
+from .common import (
     SuccessResponse,
     ErrorResponse,
     PaginationParams,
